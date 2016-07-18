@@ -1,0 +1,20 @@
+PLEASE NOTE: This text file is for use with ConnectNow (Website Alive) --  If you have questions on this, please contact your Acxiom Salesperson.
+
+ This is the ConnectNow Appendix for implementation with the Acxiom Business Directory One Per File (BDF One Per) and the Enhanced Business Directory File (EBDF).
+
+ Below are the links to assist BDF One Per and EBDF customers in implementing ConnectNow.
+
+ 1. Help URL. Please use this link if you would like to have a link to ConnectNow's help.
+ http://connectnow.websitealive.com/help/
+
+ 2. Header Code. This should be included on any page that will have one or more ConnectNow buttons.
+ <!-- ConnectNow! HEAD code -->
+ <!-- This is should be included once on your web page. -->
+<script src="http://connectnow.websitealive.com/js/"></script>
+ <!-- END ConnectNow! HEAD code -->
+
+ 3. Button Code. This is the code that should be used to install ConnectNow buttons on your directory's search results or profile pages.
+ <!-- ConnectNow! BUTTON code -->
+ <!-- This may appear multiple times on your web page. For example, if you are displaying multiple business listings due to search results, you should include this for every business listing. Requires programming - you must replace xxxxxx in the code with actual Acxiom Master Record ID. -->
+<a href="javascript:connectNowPop('xxxxxx')"><img src="http://connectnow.websitealive.com/images/?axid=xxxxxx"/></a>
+ <!-- END ConnectNow! BUTTON code -->
